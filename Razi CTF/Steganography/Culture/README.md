@@ -1,6 +1,6 @@
 An image in PNG format [enc.png](https://github.com/ymgh96/CTF-Writeups/blob/main/Razi%20CTF/Steganography/Culture/enc.png) is given in this challenge.\
-If we run zsteg tool, we can acheive the flag.\
-```
+If we run zsteg tool, we can acheive the flag.
+```shell
 root@kali:~/razi/Culture# zsteg enc.png 
 imagedata           .. text: "+*#QRM'(\""
 b1,bgr,lsb,xy       .. text: "RaziCTF{i_s33_ur_4_MaN_0f_LSB_aS_W3LL}====="
